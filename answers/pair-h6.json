@@ -1,0 +1,22 @@
+{
+  "citations": [],
+  "completedAt": null,
+  "corpusVersion": "annotation-demo-v1",
+  "explanation": null,
+  "judgment": null,
+  "judgmentConfidence": null,
+  "kind": "blank_template",
+  "packetSha256": "cedc8f7c8ad1c33a2358768b0733c3467be9ebce711357ec5141264e3503e69a",
+  "provenance": {
+    "attestation": null,
+    "independentFromCorpusAuthor": null,
+    "method": null,
+    "modelAndLabelsHidden": null
+  },
+  "relationBtoA": null,
+  "responseId": null,
+  "reviewerId": null,
+  "schema": "bubbles-blind-annotation-v1",
+  "startedAt": null,
+  "taskId": "pair-h6"
+}

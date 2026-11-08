@@ -1,0 +1,18 @@
+[
+  {
+    "documentId": "doc-w2",
+    "end": 235,
+    "field": null,
+    "quote": "Fiktiver Tavi-Werkstattzettel. Veröffentlicht: 2042-04-23 16:40 UTC. An der Probebühne Efeu wurde heute um 16:05 UTC eine abgefallene Anzeigetafel beschrieben. Das Blatt nennt die Kennung Tafel-R und eine spätere Befestigungskontrolle.",
+    "sourceSha256": "609676233ed4839b76c932dc97b0e91360e6211a014078e62637dab7667d9725",
+    "start": 0
+  },
+  {
+    "documentId": "doc-c9",
+    "end": 273,
+    "field": null,
+    "quote": "Fiktiver Tavi-Werkstattzettel. Veröffentlicht: 2042-04-23 17:15 UTC. Eine Anzeigetafel an der Probebühne Efeu soll während der Nachmittagsprobe heruntergefallen sein. Die Kennung wurde nicht protokolliert. Ob dies die zuvor beschriebene Tafel betrifft, ist im Zettel offen.",
+    "sourceSha256": "0672fa5f0e89b1fef25f62781864f3ef775c3ea7c1d740dbbeea405ad60329d9",
+    "start": 0
+  }
+]

@@ -1,0 +1,456 @@
+{
+  "corpusSha256": "ed34240d10c62490ebb0eb895ef9cf703560a739fde4d77551725f5fa3f43b50",
+  "corpusVersion": "annotation-demo-v1",
+  "freezeSha256": "1d1fbc4c9c4ad5f87408f4b751c18a02208ac08b136db5e64b9e270ed9a98bfe",
+  "rubricSha256": "fffa6f3d58af165eecf2f39a92f7e7efed166ec0db73a81574d26bb85b83c782",
+  "schema": "bubbles-blind-annotation-v1",
+  "tasks": [
+    {
+      "sides": [
+        {
+          "source": {
+            "authoringMethod": "separately-authored-own-synthetic",
+            "documentId": "doc-r4",
+            "kind": "own-synthetic",
+            "language": "de",
+            "offsetUnit": "unicode-codepoint",
+            "originId": "origin-koru",
+            "rawText": "Fiktives Koru-Protokoll. Veröffentlicht: 2042-03-12 10:00 UTC. Am 12. März 2042 wurde um 09:20 UTC im Proberaum Linde ein vibrierendes Messpult gemeldet. Die Notiz nennt keine Seriennummer.",
+            "sha256": "5ad304aff843e5d9cb004b241c6467541dc1cedd39de9d33edc079dcb9afa865"
+          },
+          "timeClaims": {
+            "claimedEventTimeReferences": [],
+            "occurrence": {
+              "provenance": {
+                "confidence": "declared",
+                "method": "author-declared-synthetic",
+                "spans": [
+                  {
+                    "documentId": "doc-r4",
+                    "end": 98,
+                    "quote": "09:20 UTC",
+                    "role": "occurrence",
+                    "start": 89
+                  }
+                ]
+              },
+              "status": "asserted",
+              "value": {
+                "end": "2042-03-12T09:21:00",
+                "precision": "minute",
+                "start": "2042-03-12T09:20:00",
+                "timezone": {
+                  "fold": null,
+                  "kind": "utc",
+                  "name": "UTC",
+                  "offsetMinutes": 0
+                }
+              }
+            },
+            "publishedAt": {
+              "provenance": {
+                "confidence": "declared",
+                "method": "author-declared-synthetic",
+                "spans": [
+                  {
+                    "documentId": "doc-r4",
+                    "end": 61,
+                    "quote": "2042-03-12 10:00 UTC",
+                    "role": "publication",
+                    "start": 41
+                  }
+                ]
+              },
+              "status": "asserted",
+              "value": {
+                "end": "2042-03-12T10:01:00",
+                "precision": "minute",
+                "start": "2042-03-12T10:00:00",
+                "timezone": {
+                  "fold": null,
+                  "kind": "utc",
+                  "name": "UTC",
+                  "offsetMinutes": 0
+                }
+              }
+            },
+            "updatedAt": {
+              "provenance": {
+                "confidence": "unknown",
+                "method": "unknown",
+                "spans": []
+              },
+              "status": "unknown",
+              "value": null
+            }
+          }
+        },
+        {
+          "source": {
+            "authoringMethod": "separately-authored-own-synthetic",
+            "documentId": "doc-m7",
+            "kind": "own-synthetic",
+            "language": "en",
+            "offsetUnit": "unicode-codepoint",
+            "originId": "origin-koru",
+            "rawText": "Fictional Koru desk note. Published: 2042-03-12 10:18 UTC. The Linde rehearsal room notice is amended: the vibration described at 09:20 UTC came from a demonstration platform, according to the desk. No serial number is supplied.",
+            "sha256": "1b7bc4e8a360ca465eab7009997aa5c0cca252e1d2bdb903b766e8c2d8367fe9"
+          },
+          "timeClaims": {
+            "claimedEventTimeReferences": [
+              {
+                "kind": "literal-time",
+                "provenance": {
+                  "confidence": "declared",
+                  "method": "author-declared-synthetic",
+                  "spans": [
+                    {
+                      "documentId": "doc-m7",
+                      "end": 139,
+                      "quote": "09:20 UTC",
+                      "role": "claimed-event-time",
+                      "start": 130
+                    }
+                  ]
+                },
+                "rawReference": "09:20 UTC"
+              }
+            ],
+            "occurrence": {
+              "provenance": {
+                "confidence": "unknown",
+                "method": "unknown",
+                "spans": []
+              },
+              "status": "unknown",
+              "value": null
+            },
+            "publishedAt": {
+              "provenance": {
+                "confidence": "declared",
+                "method": "author-declared-synthetic",
+                "spans": [
+                  {
+                    "documentId": "doc-m7",
+                    "end": 57,
+                    "quote": "2042-03-12 10:18 UTC",
+                    "role": "publication",
+                    "start": 37
+                  }
+                ]
+              },
+              "status": "asserted",
+              "value": {
+                "end": "2042-03-12T10:19:00",
+                "precision": "minute",
+                "start": "2042-03-12T10:18:00",
+                "timezone": {
+                  "fold": null,
+                  "kind": "utc",
+                  "name": "UTC",
+                  "offsetMinutes": 0
+                }
+              }
+            },
+            "updatedAt": {
+              "provenance": {
+                "confidence": "unknown",
+                "method": "unknown",
+                "spans": []
+              },
+              "status": "unknown",
+              "value": null
+            }
+          }
+        }
+      ],
+      "taskId": "pair-h6"
+    },
+    {
+      "sides": [
+        {
+          "source": {
+            "authoringMethod": "separately-authored-own-synthetic",
+            "documentId": "doc-w2",
+            "kind": "own-synthetic",
+            "language": "de",
+            "offsetUnit": "unicode-codepoint",
+            "originId": "origin-tavi",
+            "rawText": "Fiktiver Tavi-Werkstattzettel. Veröffentlicht: 2042-04-23 16:40 UTC. An der Probebühne Efeu wurde heute um 16:05 UTC eine abgefallene Anzeigetafel beschrieben. Das Blatt nennt die Kennung Tafel-R und eine spätere Befestigungskontrolle.",
+            "sha256": "609676233ed4839b76c932dc97b0e91360e6211a014078e62637dab7667d9725"
+          },
+          "timeClaims": {
+            "claimedEventTimeReferences": [],
+            "occurrence": {
+              "provenance": {
+                "confidence": "declared",
+                "method": "author-declared-synthetic",
+                "spans": [
+                  {
+                    "documentId": "doc-w2",
+                    "end": 116,
+                    "quote": "16:05 UTC",
+                    "role": "occurrence",
+                    "start": 107
+                  }
+                ]
+              },
+              "status": "asserted",
+              "value": {
+                "end": "2042-04-23T16:06:00",
+                "precision": "minute",
+                "start": "2042-04-23T16:05:00",
+                "timezone": {
+                  "fold": null,
+                  "kind": "utc",
+                  "name": "UTC",
+                  "offsetMinutes": 0
+                }
+              }
+            },
+            "publishedAt": {
+              "provenance": {
+                "confidence": "declared",
+                "method": "author-declared-synthetic",
+                "spans": [
+                  {
+                    "documentId": "doc-w2",
+                    "end": 67,
+                    "quote": "2042-04-23 16:40 UTC",
+                    "role": "publication",
+                    "start": 47
+                  }
+                ]
+              },
+              "status": "asserted",
+              "value": {
+                "end": "2042-04-23T16:41:00",
+                "precision": "minute",
+                "start": "2042-04-23T16:40:00",
+                "timezone": {
+                  "fold": null,
+                  "kind": "utc",
+                  "name": "UTC",
+                  "offsetMinutes": 0
+                }
+              }
+            },
+            "updatedAt": {
+              "provenance": {
+                "confidence": "unknown",
+                "method": "unknown",
+                "spans": []
+              },
+              "status": "unknown",
+              "value": null
+            }
+          }
+        },
+        {
+          "source": {
+            "authoringMethod": "separately-authored-own-synthetic",
+            "documentId": "doc-c9",
+            "kind": "own-synthetic",
+            "language": "de",
+            "offsetUnit": "unicode-codepoint",
+            "originId": "origin-tavi",
+            "rawText": "Fiktiver Tavi-Werkstattzettel. Veröffentlicht: 2042-04-23 17:15 UTC. Eine Anzeigetafel an der Probebühne Efeu soll während der Nachmittagsprobe heruntergefallen sein. Die Kennung wurde nicht protokolliert. Ob dies die zuvor beschriebene Tafel betrifft, ist im Zettel offen.",
+            "sha256": "0672fa5f0e89b1fef25f62781864f3ef775c3ea7c1d740dbbeea405ad60329d9"
+          },
+          "timeClaims": {
+            "claimedEventTimeReferences": [],
+            "occurrence": {
+              "provenance": {
+                "confidence": "unknown",
+                "method": "unknown",
+                "spans": []
+              },
+              "status": "unknown",
+              "value": null
+            },
+            "publishedAt": {
+              "provenance": {
+                "confidence": "declared",
+                "method": "author-declared-synthetic",
+                "spans": [
+                  {
+                    "documentId": "doc-c9",
+                    "end": 67,
+                    "quote": "2042-04-23 17:15 UTC",
+                    "role": "publication",
+                    "start": 47
+                  }
+                ]
+              },
+              "status": "asserted",
+              "value": {
+                "end": "2042-04-23T17:16:00",
+                "precision": "minute",
+                "start": "2042-04-23T17:15:00",
+                "timezone": {
+                  "fold": null,
+                  "kind": "utc",
+                  "name": "UTC",
+                  "offsetMinutes": 0
+                }
+              }
+            },
+            "updatedAt": {
+              "provenance": {
+                "confidence": "unknown",
+                "method": "unknown",
+                "spans": []
+              },
+              "status": "unknown",
+              "value": null
+            }
+          }
+        }
+      ],
+      "taskId": "pair-q3"
+    },
+    {
+      "sides": [
+        {
+          "source": {
+            "authoringMethod": "separately-authored-own-synthetic",
+            "documentId": "doc-j5",
+            "kind": "own-synthetic",
+            "language": "es",
+            "offsetUnit": "unicode-codepoint",
+            "originId": "origin-runo",
+            "rawText": "Registro ficticio Runo. Publicado: 2042-05-08 07:30 UTC. En el ensayo del invernadero Nube se informó de una apertura del techo a las 07:10 UTC del 8 de mayo de 2042. La nota no identifica el panel.",
+            "sha256": "9d554c83966b6d7b2b9c537a4239ecdacf556df53e9414b59aa1b631b31b06f2"
+          },
+          "timeClaims": {
+            "claimedEventTimeReferences": [],
+            "occurrence": {
+              "provenance": {
+                "confidence": "declared",
+                "method": "author-declared-synthetic",
+                "spans": [
+                  {
+                    "documentId": "doc-j5",
+                    "end": 143,
+                    "quote": "07:10 UTC",
+                    "role": "occurrence",
+                    "start": 134
+                  }
+                ]
+              },
+              "status": "asserted",
+              "value": {
+                "end": "2042-05-08T07:11:00",
+                "precision": "minute",
+                "start": "2042-05-08T07:10:00",
+                "timezone": {
+                  "fold": null,
+                  "kind": "utc",
+                  "name": "UTC",
+                  "offsetMinutes": 0
+                }
+              }
+            },
+            "publishedAt": {
+              "provenance": {
+                "confidence": "declared",
+                "method": "author-declared-synthetic",
+                "spans": [
+                  {
+                    "documentId": "doc-j5",
+                    "end": 55,
+                    "quote": "2042-05-08 07:30 UTC",
+                    "role": "publication",
+                    "start": 35
+                  }
+                ]
+              },
+              "status": "asserted",
+              "value": {
+                "end": "2042-05-08T07:31:00",
+                "precision": "minute",
+                "start": "2042-05-08T07:30:00",
+                "timezone": {
+                  "fold": null,
+                  "kind": "utc",
+                  "name": "UTC",
+                  "offsetMinutes": 0
+                }
+              }
+            },
+            "updatedAt": {
+              "provenance": {
+                "confidence": "unknown",
+                "method": "unknown",
+                "spans": []
+              },
+              "status": "unknown",
+              "value": null
+            }
+          }
+        },
+        {
+          "source": {
+            "authoringMethod": "separately-authored-own-synthetic",
+            "documentId": "doc-b8",
+            "kind": "own-synthetic",
+            "language": "de",
+            "offsetUnit": "unicode-codepoint",
+            "originId": "origin-runo",
+            "rawText": "Fiktive Runo-Abschrift. Veröffentlicht: 2042-05-08 08:10 UTC. Die Aufsicht bestreitet eine Dachöffnung beim Versuch im Gewächshaus Nube um 07:10 UTC. Eine Anzeige habe lediglich den vorgesehenen Testzustand dargestellt. Der Vermerk enthält keine Panelkennung.",
+            "sha256": "cb47daa859b775c090f6d39fd5bd207597f231c734bfde392713b57d34626668"
+          },
+          "timeClaims": {
+            "claimedEventTimeReferences": [],
+            "occurrence": {
+              "provenance": {
+                "confidence": "unknown",
+                "method": "unknown",
+                "spans": []
+              },
+              "status": "unknown",
+              "value": null
+            },
+            "publishedAt": {
+              "provenance": {
+                "confidence": "declared",
+                "method": "author-declared-synthetic",
+                "spans": [
+                  {
+                    "documentId": "doc-b8",
+                    "end": 60,
+                    "quote": "2042-05-08 08:10 UTC",
+                    "role": "publication",
+                    "start": 40
+                  }
+                ]
+              },
+              "status": "asserted",
+              "value": {
+                "end": "2042-05-08T08:11:00",
+                "precision": "minute",
+                "start": "2042-05-08T08:10:00",
+                "timezone": {
+                  "fold": null,
+                  "kind": "utc",
+                  "name": "UTC",
+                  "offsetMinutes": 0
+                }
+              }
+            },
+            "updatedAt": {
+              "provenance": {
+                "confidence": "unknown",
+                "method": "unknown",
+                "spans": []
+              },
+              "status": "unknown",
+              "value": null
+            }
+          }
+        }
+      ],
+      "taskId": "pair-v8"
+    }
+  ]
+}

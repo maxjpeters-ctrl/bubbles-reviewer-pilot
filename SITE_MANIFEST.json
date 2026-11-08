@@ -1,0 +1,79 @@
+{
+  "corpusSha256": "ed34240d10c62490ebb0eb895ef9cf703560a739fde4d77551725f5fa3f43b50",
+  "files": [
+    {
+      "bytes": 0,
+      "path": ".nojekyll",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 3246,
+      "path": "RUBRIK.md",
+      "sha256": "fffa6f3d58af165eecf2f39a92f7e7efed166ec0db73a81574d26bb85b83c782"
+    },
+    {
+      "bytes": 570,
+      "path": "answers/pair-h6.json",
+      "sha256": "c899ed3762a044c1102e95153a4c2f31a69b46e999236da8c65154fba52ef118"
+    },
+    {
+      "bytes": 570,
+      "path": "answers/pair-q3.json",
+      "sha256": "51bff05eafa42a58a826415e8454a6b5cff489da078f1957025803e898fdbdb2"
+    },
+    {
+      "bytes": 570,
+      "path": "answers/pair-v8.json",
+      "sha256": "e415bc620eceabe7e7a6b8127fd84aaa5a02ac42eaaa566a5154d960bf1fcb2b"
+    },
+    {
+      "bytes": 14376,
+      "path": "app.js",
+      "sha256": "04294b20024865dcdca5c333838191f93eade502ad0fb39fe9e81fcb92374cf2"
+    },
+    {
+      "bytes": 806,
+      "path": "citations/pair-h6.json",
+      "sha256": "33a3188e493fe86a4d26dc6e612a2cf1222b334427f9d269bbb3506763f9bdcf"
+    },
+    {
+      "bytes": 901,
+      "path": "citations/pair-q3.json",
+      "sha256": "88a747ac356e8808e1e1304ad1386bcb4bfe58b8c3eac12386fd58e1c92b9a41"
+    },
+    {
+      "bytes": 849,
+      "path": "citations/pair-v8.json",
+      "sha256": "b19dc5b5c2b3bd5a97eb532d9a6a6dde23d8b8ff4f39acdc07a369e96c2dab30"
+    },
+    {
+      "bytes": 13273,
+      "path": "data.js",
+      "sha256": "0f9ca19f7efdf0e22207591f56a3e070e48b0ce27c6a8c120d14877260f0c04f"
+    },
+    {
+      "bytes": 2034,
+      "path": "diagnostics.js",
+      "sha256": "cf8dbc9f12e80275d3497f1666f5dbb34e6fb5d1cad40d2ec718ccbdcba67a9a"
+    },
+    {
+      "bytes": 3244,
+      "path": "index.html",
+      "sha256": "2abe1e16091c97b522c98322a115a3f85611ff719d430e0cc24b83d970cc4dca"
+    },
+    {
+      "bytes": 15717,
+      "path": "packet.json",
+      "sha256": "cedc8f7c8ad1c33a2358768b0733c3467be9ebce711357ec5141264e3503e69a"
+    },
+    {
+      "bytes": 1367,
+      "path": "style.css",
+      "sha256": "7413241880149a78c5616677fcc25e895ce0697df17389d32555c98558dfd586"
+    }
+  ],
+  "freezeSha256": "1d1fbc4c9c4ad5f87408f4b751c18a02208ac08b136db5e64b9e270ed9a98bfe",
+  "packetSha256": "cedc8f7c8ad1c33a2358768b0733c3467be9ebce711357ec5141264e3503e69a",
+  "rubricSha256": "fffa6f3d58af165eecf2f39a92f7e7efed166ec0db73a81574d26bb85b83c782",
+  "siteVersion": "safari-reviewer-site-v1"
+}

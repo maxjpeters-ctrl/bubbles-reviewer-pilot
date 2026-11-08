@@ -1,0 +1,18 @@
+[
+  {
+    "documentId": "doc-j5",
+    "end": 198,
+    "field": null,
+    "quote": "Registro ficticio Runo. Publicado: 2042-05-08 07:30 UTC. En el ensayo del invernadero Nube se informó de una apertura del techo a las 07:10 UTC del 8 de mayo de 2042. La nota no identifica el panel.",
+    "sourceSha256": "9d554c83966b6d7b2b9c537a4239ecdacf556df53e9414b59aa1b631b31b06f2",
+    "start": 0
+  },
+  {
+    "documentId": "doc-b8",
+    "end": 259,
+    "field": null,
+    "quote": "Fiktive Runo-Abschrift. Veröffentlicht: 2042-05-08 08:10 UTC. Die Aufsicht bestreitet eine Dachöffnung beim Versuch im Gewächshaus Nube um 07:10 UTC. Eine Anzeige habe lediglich den vorgesehenen Testzustand dargestellt. Der Vermerk enthält keine Panelkennung.",
+    "sourceSha256": "cb47daa859b775c090f6d39fd5bd207597f231c734bfde392713b57d34626668",
+    "start": 0
+  }
+]

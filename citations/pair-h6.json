@@ -1,0 +1,18 @@
+[
+  {
+    "documentId": "doc-r4",
+    "end": 189,
+    "field": null,
+    "quote": "Fiktives Koru-Protokoll. Veröffentlicht: 2042-03-12 10:00 UTC. Am 12. März 2042 wurde um 09:20 UTC im Proberaum Linde ein vibrierendes Messpult gemeldet. Die Notiz nennt keine Seriennummer.",
+    "sourceSha256": "5ad304aff843e5d9cb004b241c6467541dc1cedd39de9d33edc079dcb9afa865",
+    "start": 0
+  },
+  {
+    "documentId": "doc-m7",
+    "end": 228,
+    "field": null,
+    "quote": "Fictional Koru desk note. Published: 2042-03-12 10:18 UTC. The Linde rehearsal room notice is amended: the vibration described at 09:20 UTC came from a demonstration platform, according to the desk. No serial number is supplied.",
+    "sourceSha256": "1b7bc4e8a360ca465eab7009997aa5c0cca252e1d2bdb903b766e8c2d8367fe9",
+    "start": 0
+  }
+]
